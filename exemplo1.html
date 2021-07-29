@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hDC Agency - a sua agência web</title>
+  <!-- Fonte -->
+  <link rel="stylesheet" href="css/mycss.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+   <!-- Scripts -->
+   <script src="js/scripts.js"></script>
+   <script src="js/heroes.js"></script>
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="container mt-5 myLoader">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="loader mx-auto mt-auto">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/batman-logo.png" alt="Batman Logo">
+          <h5>Batman</h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+            <a class="nav-item nav-link" id="reference-menu" href="#">Referências</a>
+            <a class="nav-item nav-link" id="combat-menu" href="#">Combates</a>
+            <a class="nav-item nav-link" id="simulation-menu" href="#">Simulação Luta</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Index Section -->
+    <section id="index-section">
+      <div id="about-area" >
+        <div class="container">
+          <div class="row">
+            <div class="col-12"> 
+              <h3 class="main-title">Batman</h3>
+              <img class="image-logo" src="img/batman-logo.png" alt="Agência hD">
+            </div>
+            <br>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/batman-evil.jpg" alt="Agência hDC">
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">BATMAN, O CAVALEIRO DAS TREVAS</h3>
+              <p>Batman o verdadeiro herói dos heróis.</p>
+              <p>Batman ou Homem-Morcego é um personagem fictício, um super-herói da banda desenhada americana publicada pela DC Comics.</p>
+              <p>Foi criado pelo escritor Bill Finger e pelo artista Bob Kane, e apareceu pela primeira vez na revista Detective Comics #27.</p>
+              <p>Referências do herói:</p>
+              <div style="margin-left: -6%;">
+                <ul id="about-list">
+                  <li>
+                    <i class="fas fa-check"></i> <p> Gotham City</p>         
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> 
+                    <p>Bruce Wayne</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> 
+                    <p>Bob Kane</p>             
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> 
+                    <p>Universo DC</p>           
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> 
+                    <p>Homem Morcego</p>           
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reference Section -->
+    <section id="reference-area-section">
+      <div id="reference-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Referências</h3>
+            </div>
+            <div class="col-md-6 reference-box">
+              <img class="reference-box-icon" src="img/batman-logo.png" alt="">
+              <h4>Batman Begins</h4>
+              <p>É um filme de super-heróis de 2005 dirigido por Christopher Nolan e escrito por Nolan e David S. Goyer</p>
+            </div>
+
+            <div class="col-md-6 reference-box">
+              <img class="reference-box-icon" src="img/batman-logo.png" alt="">
+              <h4>The Shadow</h4>
+              <p>The Shadow é um filme de super-herói americano de 1994 da Universal Pictures, produzido por Martin Bregman, Willi Bear e Michael Scott Bregman.</p>
+            </div>
+            <div class="col-md-6 reference-box">
+              <img class="reference-box-icon" src="img/batman-logo.png" alt="">
+              <h4>Gotham City</h4>
+              <p>Gotham City é uma cidade fictícia criada para as histórias em quadrinhos da DC Comics.</p>
+            </div>
+            <div class="col-md-6 reference-box">
+              <img class="reference-box-icon" src="img/batman-logo.png" alt="">
+              <h4>Cavaleiro de Gotham</h4>
+              <p>É um filme de animação nipo-sul-coreano-norte-americano de 2008, do gênero ação, produzido pelos estúdios de animação japoneses Studio 4°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Combat Section -->
+    <section id="combat-area-section">
+      <div id="combat-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Combates</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              <button class="main-btn filter-btn" id="cor-btn">Coringa</button>
+              <button class="main-btn filter-btn" id="ping-btn">Pinguim</button>
+              <button class="main-btn filter-btn" id="cha-btn">Charada</button>
+            </div>
+            <div class="col-md-4 project-box cor">
+              <img src="img/joker-1.png" class="img-fluid" alt="Joker Card Image">
+            </div>
+            <div class="col-md-4 project-box cor">
+              <img src="img/joker-2.jpg" class="img-fluid" alt="Joker Card Image">
+            </div>
+            <div class="col-md-4 project-box ping">
+              <img src="img/pinguim-1.jpg" class="img-fluid" alt="Pinguim Card Image">
+            </div>
+            <div class="col-md-4 project-box ping">
+              <img src="img/pinguim-2.jpg" class="img-fluid" alt="Pinguim Card Image">
+            </div>
+            <div class="col-md-4 project-box cha">
+              <img src="img/charada-1.jpeg" class="img-fluid" alt="Charada Card Image">
+            </div>
+            <div class="col-md-4 project-box cha">
+              <img src="img/charada-2.jpg" class="img-fluid" alt="Charada Card Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Fight Simulation Section -->
+    <section id="simulation-fight-section">
+      <div id="simulation-fight-area" class="background-">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Simulação de Lutas</h3>
+            </div>
+            <div class="col-md-4">
+              <div class="card left">
+                <img class="card-img-top" src="img/batman-fight.jpg" alt="Batman Card Image">
+                <div class="card-body">
+                  <h5 class="card-title-batman">Batman</h5>
+                  <p class="card-text">O herói dos heróis entra em ação.</p>            
+                </div>
+                <div id="batman-card">
+                      
+                </div>
+              </div>
+            </div>   
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12 ml-1 px-2 mb-5">
+                  <button id="generate-combat" class="btn btn-dark">Gerar um novo combate</button>
+                </div>
+                <div class="col-md-12 mt-5">
+                  <h1 class="vs-title">VS</h1>
+                </div>         
+              </div>
+            </div>    
+            <div class="col-md-4" id="enemy-card">  
+            </div>       
+          </div>         
+        </div>          
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">Contate o Batman</h3>
+          </div>
+          <div class="col-md-6">
+            <h3 class="about-title mb-4">BATMAN, O CAVALEIRO DAS TREVAS</h3>
+            <div id="batman-carousel-contact" class="carousel slide mt-3" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#batman-carousel-0" data-slide-to="0" class="active"></li>
+                <li data-target="#batman-carousel-1" data-slide-to="1"></li>
+                <li data-target="#batman-carousel-2" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" data-toggle="modal" data-target="#modalContact">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/batman-carousel-1.jpg" alt="Batman">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/batman-carousel-2.jpeg" alt="Batman">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/batman-carousel-3.jpeg" alt="Batman">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#batman-carousel-contact" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#batman-carousel-contact" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-5">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="Name">Nome</label>
+                <input type="text" class="form-control" id="name-input" placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="email-input" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="Comentary">Deixe seu comentário</label>
+                <textarea class="form-control" id="comentary-input" rows="1" placeholder="Deixe seu comentário"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal modalContact" tabindex="-1" role="dialog" id="modalContact">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Batman, O Cavaleiro das Trevas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h5>
+                <strong>História</strong>     
+              </h5>
+              <p class="text-justify">
+                A identidade secreta de Batman é Bruce Wayne, um bilionário americano, playboy, magnata de negócios, filantropo e dono da corporação 
+                Wayne Enterprises. Depois de testemunhar o assassinato dos seus pais enquanto criança, Wayne jurou vingança contra os criminosos, 
+                um juramento moderado por um sentido de justiça. Wayne treina então física e intelectualmente, e cria uma persona inspirada no morcego 
+                para combater o crime.Batman opera na cidade fictícia de Gotham City, e é ajudado por outros personagens incluindo o seu mordomo 
+                Alfred Pennyworth, o comissário da policia Jim Gordon, e outros aliados vigilantes como Robin. Ao contrário da maior parte dos super-heróis, 
+                Batman não tem superpoderes; assim na sua guerra contra o crime faz uso do seu intelecto de gênio, da sua perícia em artes marciais
+                e destreza física, bem como a sua enorme riqueza que lhe permite obter um enorme arsenal de armas e outros equipamentos. 
+                Uma grande variedade de vilões compõem a galeria de inimigos do Batman, incluindo o seu nemesis Joker.
+              </p>
+              <img class="mx-auto d-block batman-logo-modal mt-1" src="img/batman-logo.png" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Entendi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="footer-section">
+      <div id="footer-area" style="background-image: url('img/batman-footer.jpg')">
+        <div class="container" >
+          <div class="row">
+              <div class="col-md-12">
+                  <h6 class="text-center about-title">Jhonatan Felipe</h6> 
+                  <h6 class="text-center">&copy; 2021</h6> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
